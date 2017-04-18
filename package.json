@@ -1,0 +1,32 @@
+{
+  "name": "fugit",
+  "version": "1.0.0",
+  "description": "`git` wrapper that sorts options before filenames",
+  "bin": {
+    "fugit": "bin/fugit.js"
+  },
+  "files": [
+    "bin/**"
+  ],
+  "scripts": {
+    "lint": "eslint bin/*.js",
+    "test": "yarn lint",
+    "format": "prettier-standard bin/*.js"
+  },
+  "repository": "https://github.com/josephfrazier/fugit.git",
+  "author": "Joseph Frazier <1212jtraceur@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "stable": "^0.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.1.0",
+    "prettier-standard": "^3.0.1"
+  }
+}
