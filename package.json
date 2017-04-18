@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "lint": "eslint bin/*.js",
-    "test": "yarn lint",
+    "pretest": "yarn lint",
+    "test": "./test.sh",
     "format": "prettier-standard bin/*.js"
   },
   "repository": "https://github.com/josephfrazier/fugit.git",
