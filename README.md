@@ -5,7 +5,14 @@ to avoid errors like `bad flag '-p' used after filename`.
 It's basically the `git_flag_after_filename` rule from [thefuck],
 but automatically applied, so you can just use it instead of `git`
 
+See also:
+
+* [git: Does not allow flags after filenames][bug]
+* ["Hey, Git. If you know what it is & where it’s supposed to go…put it there for me?"][tweet]
+
 [thefuck]: https://github.com/nvbn/thefuck
+[bug]: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=621601
+[tweet]: https://twitter.com/bitprophet/status/232901966383161345
 
 ## Installation
 
