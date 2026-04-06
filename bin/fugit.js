@@ -10,6 +10,8 @@ const args = process.argv.slice(3)
 const shouldSwap = (a, b) => !a.startsWith('-') && b.startsWith('-')
 const sortedArgs = stableSort(args, shouldSwap)
 
+console.error(['git', ...sortedArgs].join(' '))
+
 const { status } = cp.spawnSync('git', commandArray.concat(sortedArgs), {
   stdio: 'inherit'
 })
